@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BikeVeiga</string>
+    <string name="title_activity_pedaladas">PedaladasActivity</string>
+</resources>
