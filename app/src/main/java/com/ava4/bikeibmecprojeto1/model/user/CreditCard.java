@@ -1,4 +1,4 @@
-package com.ava4.bikeibmecprojeto1.user;
+package com.ava4.bikeibmecprojeto1.model.user;
 
 import java.io.Serializable;
 

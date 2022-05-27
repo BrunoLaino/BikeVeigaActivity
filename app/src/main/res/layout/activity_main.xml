@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -71,6 +71,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
+                android:onClick="marcacao"
                 android:padding="15dp"
                 android:text="Agendamentos"
                 android:textSize="36sp"
@@ -106,6 +107,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
+                android:onClick="milhas"
                 android:text="Milhas"
                 android:textSize="36sp"
                 app:cornerRadius="20dp"

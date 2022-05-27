@@ -1,4 +1,4 @@
-package com.ava4.bikeibmecprojeto1;
+package com.ava4.bikeibmecprojeto1.activity;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,14 +7,11 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ava4.bikeibmecprojeto1.user.User;
-import com.google.android.material.textfield.TextInputEditText;
+import com.ava4.bikeibmecprojeto1.R;
+import com.ava4.bikeibmecprojeto1.model.user.User;
 
 import java.util.List;
 

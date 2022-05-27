@@ -9,7 +9,7 @@
     android:padding="20dp"
     android:paddingTop="10dp"
     android:paddingBottom="10dp"
-    tools:context=".CadastroDadosPessoaisActitvity">
+    tools:context=".activity.CadastroDadosPessoaisActitvity">
 
     <ScrollView
         android:layout_width="match_parent"

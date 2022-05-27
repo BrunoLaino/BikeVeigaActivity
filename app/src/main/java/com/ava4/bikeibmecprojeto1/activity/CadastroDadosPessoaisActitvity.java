@@ -1,4 +1,4 @@
-package com.ava4.bikeibmecprojeto1;
+package com.ava4.bikeibmecprojeto1.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,8 +9,9 @@ import android.widget.CheckBox;
 
 import android.widget.RadioButton;
 
-import com.ava4.bikeibmecprojeto1.user.CreditCard;
-import com.ava4.bikeibmecprojeto1.user.User;
+import com.ava4.bikeibmecprojeto1.R;
+import com.ava4.bikeibmecprojeto1.model.user.CreditCard;
+import com.ava4.bikeibmecprojeto1.model.user.User;
 import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.ArrayList;
