@@ -76,11 +76,12 @@ public class PedaladasActivity extends FragmentActivity implements OnMapReadyCal
         DecimalFormat formato = new DecimalFormat("#.##");
 
         int distancia = random.nextInt(10000);
-        double duracao = random.nextDouble() * 60;
+        int duracaoMinutos = random.nextInt(60);
+        int duracaoSegundos = random.nextInt(60);
         int calorias = random.nextInt(1000);
         double velMed = random.nextDouble() * 30;
 
-        textDuracao.setText("Duração: " + formato.format(duracao) + " minutos");
+        textDuracao.setText("Duração: " + String.format("%02d", duracaoMinutos) + ":" + String.format("%02d",duracaoSegundos) + " minutos");
         textDistancia.setText("Distancia: " + distancia + "m");
         textCalorias.setText("Calorias: " + calorias + " cal");
         textVelMed.setText("Velocidade media: " + formato.format(velMed)  + " km");
