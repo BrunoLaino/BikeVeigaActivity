@@ -4,12 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/drawable/ic_saiba_mais_24.xml" value="0.3828125" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/layout/activity_cadastro_confirmacao_actitvity.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/layout/activity_cadastro_dados_pessoais_actitvity.xml" value="0.3142402545743834" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/layout/activity_main.xml" value="0.25884665792922673" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/layout/activity_marcacao.xml" value="0.33" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/layout/activity_milhas.xml" value="0.33" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/layout/activity_pedaladas.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/layout/adapter_marcacoes.xml" value="0.29471228615863143" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/layout/adapter_milhas.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/BikeIbmecProjeto1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
       </map>

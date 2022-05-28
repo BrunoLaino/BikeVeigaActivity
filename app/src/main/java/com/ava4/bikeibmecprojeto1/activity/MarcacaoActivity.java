@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.widget.LinearLayout;
 
 import com.ava4.bikeibmecprojeto1.R;
-import com.ava4.bikeibmecprojeto1.adapter.AdapterMarcacoes;
+import com.ava4.bikeibmecprojeto1.adapter.MarcacoesAdapter;
 import com.ava4.bikeibmecprojeto1.model.appointment.Marcacao;
 
 import java.util.ArrayList;
@@ -28,14 +28,14 @@ public class MarcacaoActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
 
         createMarcacaos();
-        AdapterMarcacoes adapterMarcacoes = new AdapterMarcacoes(marcacaoList);
+        MarcacoesAdapter marcacoesAdapter = new MarcacoesAdapter(marcacaoList);
 
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setHasFixedSize(true);
         recyclerView.addItemDecoration( new DividerItemDecoration(this, LinearLayout.VERTICAL));
-        recyclerView.setAdapter(adapterMarcacoes);
+        recyclerView.setAdapter(marcacoesAdapter);
     }
 
     public void createMarcacaos(){

@@ -14,11 +14,11 @@ import com.ava4.bikeibmecprojeto1.model.appointment.Marcacao;
 import java.util.List;
 
 
-public class AdapterMarcacoes extends RecyclerView.Adapter<AdapterMarcacoes.MyViewHolder> {
+public class MarcacoesAdapter extends RecyclerView.Adapter<MarcacoesAdapter.MyViewHolder> {
 
     private List<Marcacao> marcacaoList;
 
-    public AdapterMarcacoes(List<Marcacao> marcacaoList) {
+    public MarcacoesAdapter(List<Marcacao> marcacaoList) {
         this.marcacaoList = marcacaoList;
     }
 
