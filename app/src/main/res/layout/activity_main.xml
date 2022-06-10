@@ -35,11 +35,12 @@
                 android:layout_width="365dp"
                 android:layout_height="287dp"
                 android:gravity="center"
-                android:text="texto de Boas-vindas e falando sobre a possibilidade de utilização de bikes pelos alunos da Ibmec"
+                android:text="Bem vindo ao BikeVeiga! O único aplicativo que te dá bônus por andar de bicicletas!"
                 android:textColor="@color/black"
                 android:textSize="34sp"
                 android:typeface="normal"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.456"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 

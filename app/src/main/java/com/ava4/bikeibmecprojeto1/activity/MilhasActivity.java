@@ -45,7 +45,7 @@ public class MilhasActivity extends AppCompatActivity {
     }
 
     public void createMilhasPost(){
-        milhasPostList.add( new MilhasPost("Programa de milhas", "Junte milhas e troque por viajens", R.drawable.imagem1));
+        milhasPostList.add( new MilhasPost("Programa de milhas", "Junte milhas e troque por viagens", R.drawable.imagem1));
         milhasPostList.add( new MilhasPost("Dobre a suas milhas!", "Participe da pedalada nas montanhas esse final de semana e ganhe o dobro de milhas", R.drawable.imagem4));
         milhasPostList.add( new MilhasPost("Viajem para Paris com desconto!", "Só hoje desconto de 50% na troca de milhas por uma passagem para Paris!", R.drawable.imagem3));
     }
